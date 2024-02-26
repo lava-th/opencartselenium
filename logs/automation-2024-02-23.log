@@ -1,0 +1,44 @@
+18:25:35.250 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:25:35.258 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:25:35.259 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:25:36.315 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13364 (auto-detected)
+18:25:36.323 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+18:25:36.324 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:25:36.355 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+18:25:36.357 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:25:36.429 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: e0:06:e6:ff:fe:a1:f8:f3 (auto-detected)
+18:25:36.541 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:25:36.541 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:25:36.542 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@506b7266
+18:25:36.598 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:25:36.599 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:25:36.599 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+18:25:36.599 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+18:25:36.599 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+18:25:39.137 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+18:25:39.468 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x82b59a2dba51da3c
+18:25:41.583 [main] INFO  TestCase.AccountRegistrationTest_TC001 - *** starting AccountRegsitrationTest ****
+18:25:41.585 [main] DEBUG TestCase.AccountRegistrationTest_TC001 - application logs started.......
+18:25:42.068 [main] INFO  TestCase.AccountRegistrationTest_TC001 - clicked on MyAccount link
+18:25:43.052 [main] INFO  TestCase.AccountRegistrationTest_TC001 - clicked on registration link
+18:25:43.052 [main] INFO  TestCase.AccountRegistrationTest_TC001 - Entering customer details...
+18:25:46.170 [main] INFO  TestCase.AccountRegistrationTest_TC001 - clicked on continue...
+18:25:47.405 [main] INFO  TestCase.AccountRegistrationTest_TC001 - validation expected message...
+18:25:47.414 [main] DEBUG TestCase.AccountRegistrationTest_TC001 - application logs end.....
+18:25:47.415 [main] INFO  TestCase.AccountRegistrationTest_TC001 - ***** finished AccountRegistrationTest ****
+18:25:47.461 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:25:47.468 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame opCode=8
+18:25:47.468 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder - Decoding WebSocket Frame length=2
+18:25:55.427 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - *** Starting LoginTest_016 ******
+18:25:55.427 [main] DEBUG TestCase.loginFunctionality.LoginTest_016 - Capturing application debug logs...
+18:25:56.032 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on myAccount link
+18:25:57.186 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on register link
+18:25:57.186 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - Entering customer details....
+18:26:02.135 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - Clicked on continue...
+18:26:03.558 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - validating expected message...
+18:26:04.712 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on logout btn
+18:26:05.069 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on myAccount
+18:26:06.232 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on login
+18:26:06.897 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - taken the mail
+18:26:07.462 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - taken the passwored
+18:26:07.886 [main] INFO  TestCase.loginFunctionality.LoginTest_016 - clicked on login btn

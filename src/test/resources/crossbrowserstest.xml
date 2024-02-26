@@ -1,0 +1,20 @@
+<suite name="Suite" thread-count="5" parallel="tests">
+    <!--Test runds on cross browsers-->
+    <test thread-count="5" name="chrometest">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCase.AccountRegistrationTest_TC001"/>
+        </classes>
+    </test>
+    <!--  Test  -->
+    <test thread-count="5" name="edgetest">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="TestCase.AccountRegistrationTest_TC001"/>
+        </classes>
+    </test>
+    <!--  Test  -->
+</suite>
+        <!--  Suite  -->

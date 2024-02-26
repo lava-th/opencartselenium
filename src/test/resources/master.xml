@@ -1,0 +1,19 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Utilities.ExtentReportManager"/>
+    </listeners>
+    <test thread-count="7" name="Test">
+        <!--running the test cases in desired browser-->
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCase.AccountRegistrationTest_TC001"/>
+            <!--Add the other test case to run the another test case-->
+            <class name="TestCase.loginFunctionality.LoginTest_016"/>
+           <class name="TestCase.loginFunctionality.LoginDataDrivenTest"/>
+
+        </classes>
+    </test>
+    <!--  Test  -->
+</suite>
+        <!--  Suite  -->
